@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+    main .width {
+        width: 90%;
+    }
+
+    main h1 {
+        font-size: 36px;
+    }
+
+    main .form {
+        flex-direction: column;
+    }
+
+    main .form .left input {
+        width: 90%;
+        height: 300px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    main .form .right input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    main .contanct {
+        flex-direction: column;
+    }
+
+    main .photos {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main .width {
+        width: 95%;
+    }
+
+    main h1 {
+        font-size: 24px;
+    }
+
+    footer .main h3 {
+        font-size: 20px;
+    }
+
+    footer .main h4 {
+        font-size: 18px;
+    }
+}
